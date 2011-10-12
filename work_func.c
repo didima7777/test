@@ -891,6 +891,7 @@ void update_menu_cal_u(void)
 
 void auto_fire(void)
 {
+//fire
 };
 
 void idle(void)
