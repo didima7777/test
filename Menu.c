@@ -80,7 +80,7 @@ MAKE_MENU(m_s13i2,  NULL_ENTRY,m_s13i1,  	   m_s12i1,     NULL_ENTRY,   set_cal_
 MAKE_MENU(m_s14i1,  m_s14i2,    NULL_ENTRY,    m_s12i2,     NULL_ENTRY,   set_cal_k_u_inc,     NULL_FUNC,	NULL_FUNC, 				NULL_FUNC,	NULL_ENTRY,	 "Вверх \0");
 MAKE_MENU(m_s14i2,  NULL_ENTRY,m_s14i1,  	   m_s12i2,     NULL_ENTRY,   set_cal_k_u_dec,     NULL_FUNC,   NULL_FUNC,				NULL_FUNC,	NULL_ENTRY,	 "Вниз  \0");
 
-
+//Добавить меню
 
 Menu_Item        Null_Menu = {(void*)0, (void*)0, (void*)0, (void*)0, (void*)0,(void*)0,(void*)0,(void*)0,(unsigned short*)0x00, {0x00}};
 
