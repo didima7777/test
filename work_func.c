@@ -116,7 +116,7 @@ static unsigned char j=0;
 void dac2(void) //Работа рентгена
 {
 static int i=0;
-	if (i>2) flag_start_adc=1;
+	if (i>=2) flag_start_adc=1;
 	if (i++>=del_t+2) //Засветку(ток) уронить вниз в конце del_t тоже что  для u_anode
 	{	  
 	  enable_all(&main_timer0);
